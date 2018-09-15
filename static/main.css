@@ -1,0 +1,154 @@
+body {
+    /* background-color:antiquewhite; */
+    background: antiquewhite;
+}
+
+.generalcontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.welcome {
+    width:50%;
+    float:left;
+    color:blueviolet;
+    margin-left: 100px;
+ }
+
+
+.welcomemessage {
+    float: left;
+    
+
+}
+.welcomemessage h1 {
+
+    font-size: 8em;
+    
+
+}
+
+
+.welcomemessage h3 {
+
+    font-size: 1.5em;
+
+}
+
+
+.loginlink {
+
+    float: left;
+    
+    margin-left: 50px;
+    margin-top: 150px;
+    font-size: 1em;
+}
+
+.alllogin {
+
+
+    margin-bottom: 30px;
+    
+
+}
+
+.homelogin {
+    width:60%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color:white;
+    
+}
+
+@media screen and (max-width:480px){
+    body{
+        max-height:736px;
+        background: #ffffff;
+        width:80%;
+        margin:0px 0px 0px 0px;
+        padding: 0px;
+    
+    }
+    #page-header{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:1024px){
+
+}
+
+@media screen and(min-width:1024px){
+
+}
+
+/*
+
+@media only screen and (min-width: 100px) and (max-width:480px)
+		    {
+                  
+.welcome {
+
+    
+    
+    color:rgb(104, 24, 24);
+    margin-left: 10%;
+    margin-right:10%;
+    
+ }
+   
+
+ 
+.welcomemessage {
+    float: left;
+
+}
+.welcomemessage h1 {
+
+    font-size: 2em;
+    
+
+}
+
+
+.welcomemessage h3 {
+
+    font-size: 1em;
+
+}
+
+
+.loginlink {
+
+    float: left;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 150px;
+    font-size: 0.9em;
+}
+
+.alllogin {
+
+
+    margin-bottom: 2px;
+    
+
+}
+
+.homelogin {
+    width:60%;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+
+            }
+
+            */
