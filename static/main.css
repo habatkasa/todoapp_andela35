@@ -4,8 +4,8 @@ body {
 }
 
 .generalcontainer {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 
@@ -39,7 +39,7 @@ body {
 
 .loginlink {
 
-    float: left;
+    float: right;
     
     margin-left: 50px;
     margin-top: 150px;
@@ -74,81 +74,102 @@ body {
     }
     #page-header{
         text-align: center;
-        font-size: 1.3em;
+        font-size: 1.8em;
     }
-    h3{
+    .welcomemessage h3 {
         font-size: 0.9em;
+        text-align: center;
+    }
+    .welcome {
+       
+    }
+
+    .loginlink {
+
+        margin: auto;
+
+
+    }
+
+    .generalcontainer {
+        margin-top: 35%;
     }
 }
 
-@media screen and (min-width:480px) and (max-width:1024px){
+@media screen and (min-width:481px) and (max-width:786px){
 
+    body{
+        max-height:684px;
+        background: #ffffff;
+        width:80%;
+        margin:0px 0px 0px 0px;
+        padding: 0px;
+    
+    }
+    #page-header{
+        text-align: center;
+        font-size: 3em;
+    }
+    .welcomemessage h3 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .welcome {
+       
+    }
+
+    .loginlink {
+
+        margin: auto;
+        border-left: 1px solid blueviolet;
+        padding-left: 30px;
+        font-size: 90%;
+
+    }
+
+    .generalcontainer {
+        margin-top: 20%;
+    }
 }
 
-@media screen and(min-width:1024px){
 
-}
 
-/*
+@media screen and(min-width:787px) and (max-width:1024px) {
 
-@media only screen and (min-width: 100px) and (max-width:480px)
-		    {
-                  
-.welcome {
-
+    body{
+        max-height:912px;
+        background: antiquewhite;
+        width:80%;
+        margin:0px 0px 0px 0px;
+        padding: 0px;
     
+    }
+   
+    .welcomemessage  {
+        width: 10%;
+    }
     
-    color:rgb(104, 24, 24);
-    margin-left: 10%;
-    margin-right:10%;
-    
- }
+
+    .loginlink {
+
+        
+
+       /* margin: auto;
+        border-left: 1px solid blueviolet;
+        padding-left: 30px;
+        font-size: 90%;*/
+
+    }
+     
    
 
- 
-.welcomemessage {
-    float: left;
-
-}
-.welcomemessage h1 {
-
-    font-size: 2em;
-    
-
+    .generalcontainer {
+        margin-top: 30%;
+       
+        
+    }
 }
 
 
-.welcomemessage h3 {
-
-    font-size: 1em;
-
-}
 
 
-.loginlink {
-
-    float: left;
-    margin-right: 100px;
-    margin-left: 50px;
-    margin-top: 150px;
-    font-size: 0.9em;
-}
-
-.alllogin {
-
-
-    margin-bottom: 2px;
-    
-
-}
-
-.homelogin {
-    width:60%;
-    height: 40px;
-    border-radius: 4px;
-    
-}
-
-            }
-
-            */
