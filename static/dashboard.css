@@ -1,0 +1,87 @@
+
+body {
+    background-color:antiquewhite;
+}
+
+.topbar  {
+    
+   background-color: blueviolet;
+   width: 15%;
+   float: left;
+}
+
+.topbar ul {
+   margin:10px;
+}
+.topbar ul li {
+    list-style: none;
+    
+   
+    padding: 2px;
+    height: 40px;
+    
+}
+.topbar ul li a {
+    text-decoration: none;
+    color:white;
+    
+
+}
+.topbar ul li a:hover {
+            
+    background-color: aquamarine;
+    color:black;
+    width: 100%;
+    
+
+}
+.newnote {
+    float: left;
+    background-color:blueviolet;
+    
+    margin-left: 20px;
+    width: 50%; 
+}
+
+.kontainer {
+
+   margin-top: 10%;
+   margin-left: 20%;
+}
+
+.listitems {
+    margin: 5% ;
+
+}
+.listitems label {
+    color:white;
+}
+
+.listtitle {
+    margin: 5% ;
+}
+.aboutlists {
+   width:90%;
+   margin-top: 5%;
+   margin-left: 5%;
+}
+
+.aboutlists label {
+    color:white;
+}
+#basic {
+   width: 70%;
+   border-radius: 5px;
+   background-color: antiquewhite;
+   
+}
+.savelist {
+    margin-left: 40%;
+    margin-bottom: 10%;
+    height: 50px;
+    width: 100px;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+}
