@@ -12,9 +12,11 @@ if __name__ == "__main__":
      Allow a person to input a name and a password
 
         E.g
+
     """
+ 
     name = input("Enter your name: ")
-    password=("enter your password: ")
+    password=input("enter your password: ")
 
     login(password,name)
 
@@ -27,12 +29,14 @@ if __name__ == "__main__":
         choice=int(input('Selection: '))
         if choice == 1:
             create_task()
-        elif choice ==2:
-            delete_task()
+        elif choice == 2:
+            onm=input('enter a task to delete\n')
+            delete_task(onm)
         elif choice == 3:
             delete_all_tasks()
         elif choice == 4:
-           mark_as_finished()
+           task=input('enter task to mark as finished')
+           mark_as_finished(task)
         else:
             print('Select Options')
             print('1. creating a task')
@@ -43,11 +47,13 @@ if __name__ == "__main__":
             if choice == 1:
                 create_task()
             elif choice ==2:
-                delete_task()
+                onm=input('enter a task to delete\n')
+                delete_task(onm)
             elif choice == 3:
                 delete_all_tasks()
             elif choice == 4:
-                mark_as_finished()
+                task=input('enter task to mark as finished')
+                mark_as_finished(task)
             
 
    
