@@ -40,4 +40,44 @@
    font-weight: bold
 }
 
+/*media querries*/
+
+@media screen and (max-width:480px) {
+
+    
+.kontainer {
+    width: 50%;
+    
+   /* margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px; */
+    
+    color: blueviolet;
+    background-color: antiquewhite;
+    
+    border-radius: 5px;
+    text-align: center;
+    margin:90px auto;
+    
+}
+.sign {
+    font-size: 90%;
+}
+
+.kontainer h1 ,h2 {
+    padding: 20px;
+    font-size: 90%;
+ }
+ 
+
+}
+ 
+/*
+@media screen and (min-width:481px) and (max-width:786px) {
+
+}
+
+@media screen and (min-width:787px) and (max-width:1024px){
+
+} */
 

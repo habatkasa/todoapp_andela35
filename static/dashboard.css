@@ -25,6 +25,7 @@ body {
     text-decoration: none;
     color:white;
     
+    
 
 }
 .topbar ul li a:hover {
@@ -84,4 +85,114 @@ body {
     color:black;
     font-weight: bold;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width:786px){
+.body {
+    max-height: 736px;
+}
+.kontainer {
+    width: 80%;
+    margin: 20px auto;
+} 
+.topbar  {
+    
+    background-color: blueviolet;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+ }
+ 
+.newnote {
+    float: left;
+    background-color:blueviolet;
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 100%;
+    
+}
+
+
+.topbar ul li {
+    list-style: none;
+    
+   
+    padding: 2px;
+    height: auto;
+    
+}
+
+
+.savelist {
+    margin-left: 40%;
+    margin-bottom: 10%;
+    height: auto;
+    width: auto;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.listitems label {
+    color:white;
+    font-size: 90%;
+}
+
+
+.aboutlists {
+
+    
+}
+.aboutlists label {
+    color:white;
+    font-size: 90%;
+    
+    
+
+}
+
+.aboutlists input {
+     float:right;
+     width: 40%;
+}
+.listtitle {
+    width: 100%;
+    margin-right: 10px;
+    
+    
+    
+}
+
+}
+@media screen and (min-width:787px) and (max-width:1024px){
+
+  
+   
+.topbar  {
+    
+    background-color: blueviolet;
+    width: auto;
+    float: left;
+ }
+ 
+ .topbar ul {
+    margin:10px;
+ }
+ .topbar ul li {
+     list-style: none;
+     
+    
+     padding: 2px;
+     height: 40px;
+     
+ }
+ .topbar ul li a {
+     text-decoration: none;
+     color:white;
+     
+
+
 }
